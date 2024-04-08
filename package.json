@@ -1,0 +1,18 @@
+{
+  "name": "assig-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "7000",
+  "author": "desmond",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
